@@ -1,0 +1,130 @@
+@media (max-width: 1440px) {
+    .object-content-presentation .object-text .object-name h2 {
+        font-size: 27px;
+    }
+
+    .object-content-presentation .object-text .object-school h1{
+        font-size: 35px;
+}
+
+    .object-content-presentation .object-text .object-title h1{
+        font-size: 30px;
+    }
+
+    section.object-container-picture .object-image-operarios img {
+        width: 600px;
+        height: 380px;
+       }
+
+       section.object-container-picture .object-description p {
+        font-size: 25px;
+       }
+
+       main.object-container-person .object-illustration-person .object-description p {
+        font-size: 25px;
+       }
+}
+@media (max-width: 890px) {
+   .object-text .object-title h1 {
+    font-size: 28px;
+   }
+   
+   section.object-container-picture .object-image-operarios img {
+    width: 320px;
+    height: 280px;
+   }
+
+   section.object-container-picture .object-image-operarios {
+    margin-top: 10px;
+   }
+
+   section.object-container-picture .object-description p {
+    font-size: 17px;
+   }
+
+   section.object-container-picture .object-background {
+    height: 93vh;
+   }
+
+   main.object-container-person .object-illustration-person .object-description p {
+    font-size: 17px;
+   }
+}
+
+@media (max-width: 768px) {
+    .object-name-teacher {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    section.object-container-picture .object-image-operarios img {
+        width: 450px;
+    }
+
+    section.object-container-picture .object-description p {
+        font-size: 24px;
+       }
+
+       main.object-container-person .object-illustration-person .object-description p {
+        font-size: 24px;
+       }
+ }
+
+ @media (max-width: 630px) {
+    section.object-container-picture .object-image-operarios img {
+        width: 300px;
+    }
+
+    section.object-container-picture .object-background {
+        height: 95vh;
+    }
+
+    section.object-container-picture .object-description p {
+        font-size: 20px;
+    }
+ }
+
+ @media (max-width: 630px) {
+
+    section.object-container-picture .object-image-operarios img {
+        width: 270px;
+        height: 200px;
+    }
+
+    section.object-container-picture .object-description p {
+        font-size: 17px;
+    }
+
+    section.object-container-picture .object-background {
+        height: 92vh;
+    }
+
+    main.object-container-person .object-image-person {
+        height: 300px;
+        width: 280px;
+    }
+ }
+
+ @media (max-width: 450px) {
+
+    .object-content-presentation .object-text .object-name{
+        margin-top: -32px;
+    }
+
+    .object-content-presentation .object-text .object-name h2 {
+        font-size: 26px;
+    }
+
+    .object-content-presentation .object-text .object-school h1{
+        font-size: 30px;
+}
+
+    .object-content-presentation .object-text .object-title h1{
+        font-size: 27px;
+    }
+
+    section.object-container-picture .object-description p {
+        font-size: 19px;
+    }
+
+ }

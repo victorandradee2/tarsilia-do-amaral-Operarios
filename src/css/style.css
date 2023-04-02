@@ -1,0 +1,250 @@
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: #000;
+}
+
+.object-fund {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+header.object-menu {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(8, 8, 8, 0.87);
+    color: white;
+    opacity: 6;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header.object-menu .object-nav ul {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.object-container-abnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 91.5vh;
+    color: white;
+}
+.object-container-abnt .object-content-presentation {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 4%;
+    margin-left: 9%;
+    
+}
+
+.object-container-abnt .object-content-presentation .object-text{
+    gap: 17%;
+    display: flex;
+    flex-direction: column;
+}
+
+.object-content-presentation .object-text .object-school {
+    width: 100%;
+    
+}
+
+.object-content-presentation .object-text .object-school h1 {
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.object-content-presentation .object-text .object-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 250%;
+}
+
+.object-content-presentation .object-text .object-name h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+
+.object-content-presentation .object-text .object-title {
+    width: 100%;
+    
+}
+
+.object-content-presentation .object-text .object-title h1 {
+    font-weight: 500;
+    margin-top: -50px;
+    font-size: 1.5rem;
+}
+
+
+.object-content-presentation .object-text .object-date-local {
+    margin-top: -8%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.object-content-presentation .object-text .object-date-local h5 {
+    font-size: 1rem;
+}
+
+.object-container-abnt .object-name-teacher {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transform: translate(20%, 150%);
+    height: 23.8%;
+    padding: 30px;
+    gap: 5px;
+}
+
+.object-workers {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+section.object-container-picture {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+section.object-container-picture .object-background {
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.096);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 6px;
+}
+
+section.object-container-picture  .object-description {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.object-container-picture  .object-description p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #fff;
+}
+section.object-container-picture  .object-image-operarios {
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section.object-container-picture  .object-image-operarios img {
+    width: 850px;
+    height: 350px;
+    border: 7px double rgb(255, 255, 255);
+}
+
+.object-container-picture .object-tarsilia {
+    width: 100%;
+    left: 0;
+    top: 100%;
+    height: 104vh;
+    opacity: 0.2;
+    object-fit: cover;
+}
+
+main.object-container-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+
+main.object-container-person .object-image-person {
+    width: 400px;
+    border: 7px double rgb(255, 255, 255);
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+main.object-container-person .object-background .object-fund-2 {
+    width: 100%;
+    height: 110vh;
+    opacity: 0.2;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+main.object-container-person .object-illustration-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 90vh;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 2rem;
+    color: #fff;
+    border-radius: 6px;
+}
+
+main.object-container-person .object-illustration-person .object-description-person {
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+}
+
+main.object-container-person .object-illustration-person .object-description p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.object-illustration-person .object-description.analogy {
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+
+}
+
+.object-illustration-person .object-description.analogy p {
+    font-size: 2px;
+}
